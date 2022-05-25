@@ -1,0 +1,116 @@
+*{
+    outline: 1px red dotted;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.FlexContainer {
+    width: 600px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+
+.UserCard {
+    margin-top: 60px;
+    width: 400px;
+}
+
+.CardTop {
+    background-color: rgb(52, 178, 178);
+    padding-top: 30px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+#pfp {
+    height: 100px;
+    width: auto;
+    background-color: white;
+    border-radius: 50%;
+    border: 2px solid lightgrey;
+    padding: 5px;
+    margin-bottom: -60px;
+    margin-left: 30px;
+}
+
+.CardBottom {
+    padding-top: 33px;
+    padding-left: 30px;
+    border-left: 2px solid lightgrey;
+    border-right: 2px solid lightgrey;
+    border-bottom: 2px solid lightgrey;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.CardBottom img {
+    height: 15px;
+    width: auto;
+    padding-right: 5px;
+}
+
+p{
+    margin-top: -10px;
+}
+
+.nav{
+    background-color: rgba(0, 0, 0, 0.849);
+    color: white;
+    display: flex;
+    height: 60px;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 5px;
+}
+
+.nav-title{
+    margin-left: 20px;
+}
+
+.nav-links{
+    width: 50%;
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    list-style-type: none;
+}
+
+.othera{
+    color: white;
+    text-decoration: none;
+}
+
+.btn {
+    height: 35px;
+    width: 100px;
+    background-color: #10cbe7;
+    color: #ffffff;
+    border: none;
+    font-size: 16px;
+    box-shadow: 4px 4px #000000;
+}
+
+h2{
+    background: rgb(50, 50, 50);
+    color: whitesmoke;
+    margin-left: 10px;
+}
+
+.Education {
+    margin-top: 60px;
+    width: 400px;
+}
+
+.ConnectionRequests {
+    margin-top: 60px;
+    width: 400px;
+}
+
+.YourConnections {
+    margin-top: 60px;
+    width: 400px;
+}
