@@ -2,6 +2,7 @@
     outline: 1px red dotted;
 }
 
+
 body {
     font-family: 'Roboto', sans-serif;
 }
@@ -52,6 +53,12 @@ body {
     padding-right: 5px;
 }
 
+.end img {
+    height: 45px;
+    width: auto;
+    padding-right: 5px;
+}
+
 p{
     margin-top: -10px;
 }
@@ -95,9 +102,11 @@ p{
 }
 
 h2{
-    background: rgb(50, 50, 50);
+    background-color: rgb(47, 47, 47);
     color: whitesmoke;
-    margin-left: 10px;
+    display: inline;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
 
 .Education {
@@ -113,4 +122,17 @@ h2{
 .YourConnections {
     margin-top: 60px;
     width: 400px;
+}
+
+.connections{
+    background-color: grey;
+    border-radius: 50%;
+    padding: 2px;
+    margin-right: 10px;
+}
+
+.title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
